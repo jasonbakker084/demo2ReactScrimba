@@ -25,6 +25,9 @@ import DemoReactForms1 from "./components/demoReactForms1";
 import DemoReactFormPractice from "./components/demoReactFormPractice";
 import Header2 from './components/header2';
 import MemeGenerator from "./components/memeGenerator";
+import SpotifyCover from './components/spotifyCover';
+import Coverflow from 'react-coverflow';
+import { StyleRoot } from 'radium';
 
 
 function App() {
@@ -102,6 +105,45 @@ function App() {
       <br />
       <Header2 />
       <MemeGenerator />
+      <div className="spotifyCard">
+        <StyleRoot>
+          <Coverflow width="961" height="900"
+            displayQuantityOfSide={1}
+            navigation={false}
+            enableScroll={true}
+          >
+            <SpotifyCover
+              cover={{
+                imgUrl: "https://m.media-amazon.com/images/I/71Qw9cuZG6L._SS500_.jpg",
+                album: "Two Suns",
+                artist: "Andrew ApplePie",
+                text: "2017"
+              }} />
+            <SpotifyCover
+              cover={{
+                imgUrl: "https://images-na.ssl-images-amazon.com/images/I/81qR3UEqEzL._SL1200_.jpg",
+                album: "Tranquility Base Hotel & Casino",
+                artist: "Arctic Monkeys",
+                text: "2018"
+              }} />
+            <SpotifyCover
+              cover={{
+                imgUrl: "https://images-na.ssl-images-amazon.com/images/I/71vIw1W2XaL._SL1500_.jpg",
+                album: "Nashville Skyline",
+                artist: "Bob Dylan",
+                text: "1969"
+              }} />
+            <SpotifyCover
+              cover={{
+                imgUrl: "https://images-na.ssl-images-amazon.com/images/I/41AvzhL0sxL.jpg",
+                album: "For the Love of the Game",
+                artist: "Natural Child",
+                text: "2012"
+              }} />
+          </Coverflow>,
+  {document.querySelector('.content')}
+        </StyleRoot>
+      </div>
       <Footer />
     </div>
   );

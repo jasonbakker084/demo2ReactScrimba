@@ -242,6 +242,68 @@ header>p {
   text-align: cen
 }
 
+.spotifyCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-body {
+  width: 368px;
+  height: 478px;
+  border: solid 1px #707070;
+  background-color: #222222;
+  margin: 1%;
+}
+
+/* .Card-body {
+  width: 368px;
+  height: 478px;
+  border: solid 1px #707070;
+  background-color: #222222;
+  object-fit: contain;
+} */
+
+.Album-Cover {
+  width: 328px;
+  height: 284px;
+  border: solid 1px #707070;
+  text-align: center;
+  margin: auto 5%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.Album-Title {
+  width: 328px;
+  height: 39px;
+  border: solid 1px #707070;
+  background-color: #dedede;
+  text-align: center;
+  margin: auto 5%;
+  margin-bottom: 3%;
+}
+
+.Artist-Text {
+  width: 328px;
+  height: 39px;
+  border: solid 1px #707070;
+  background-color: #dedede;
+  text-align: center;
+  margin: auto 5%;
+  margin-bottom: 3%;
+}
+
+.Additional-Text {
+  width: 328px;
+  height: 39px;
+  border: solid 1px #707070;
+  background-color: #dedede;
+  text-align: center;
+  margin: auto 5%;
+}
+
 .footer {
   background-color: #F1F1F1;
   text-align: center;
