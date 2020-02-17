@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 // Given a stateless functional component, add state to it
 // state should have a property called `isLoggedIn` which is a boolean

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ToDoItem from './toDoItem';
 import todosData from "./todosData";
 

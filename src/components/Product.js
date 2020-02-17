@@ -1,5 +1,4 @@
 import React from 'react'
-import vschoolProduct from "./vschoolProduct"
 
 function Product(props) {
     // const productList = vschoolProduct.map(products => <)

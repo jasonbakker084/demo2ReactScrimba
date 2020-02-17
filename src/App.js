@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Footer from "./components/footer";
 import MyInfo from './components/MyInfo';
@@ -57,9 +56,7 @@ function App() {
     <div>
       <Header />
       <TimeOfDay />
-      <div>
-        <MyInfo />
-      </div>
+      <MyInfo />
       <MainContent />
       <div className="contacts">
         <ContactCard
