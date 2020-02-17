@@ -18,6 +18,13 @@ import DemoState2 from "./components/demoState2";
 import DemoState3 from "./components/demoState3";
 import DemoEventHandeling from "./components/demoEventHandeling";
 import DemoHandleClick from "./components/demoHandleClick";
+import DemoConditionalRendering from "./components/demoConditionalRendering";
+import DemoConditionalRenderingButton from "./components/demoConditionalRenderingButton";
+import DemoFetchDataAPI from "./components/demoFetchDataAPI";
+import DemoReactForms1 from "./components/demoReactForms1";
+import DemoReactFormPractice from "./components/demoReactFormPractice";
+import Header2 from './components/header2';
+import MemeGenerator from "./components/memeGenerator";
 
 
 function App() {
@@ -87,6 +94,14 @@ function App() {
       <DemoState3 />
       <DemoEventHandeling />
       <DemoHandleClick />
+      <DemoConditionalRendering />
+      <DemoConditionalRenderingButton />
+      <DemoFetchDataAPI />
+      <DemoReactForms1 />
+      <DemoReactFormPractice />
+      <br />
+      <Header2 />
+      <MemeGenerator />
       <Footer />
     </div>
   );
