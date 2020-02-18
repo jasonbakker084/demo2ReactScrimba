@@ -257,14 +257,6 @@ header>p {
   margin: 1%;
 }
 
-/* .Card-body {
-  width: 368px;
-  height: 478px;
-  border: solid 1px #707070;
-  background-color: #222222;
-  object-fit: contain;
-} */
-
 .Album-Cover {
   width: 328px;
   height: 284px;
@@ -281,8 +273,9 @@ header>p {
   border: solid 1px #707070;
   background-color: #dedede;
   text-align: center;
-  margin: auto 5%;
+  margin: auto;
   margin-bottom: 3%;
+  line-height: 36px;
 }
 
 .Artist-Text {
@@ -291,8 +284,9 @@ header>p {
   border: solid 1px #707070;
   background-color: #dedede;
   text-align: center;
-  margin: auto 5%;
+  margin: auto;
   margin-bottom: 3%;
+  line-height: 36px;
 }
 
 .Additional-Text {
@@ -301,7 +295,8 @@ header>p {
   border: solid 1px #707070;
   background-color: #dedede;
   text-align: center;
-  margin: auto 5%;
+  margin: auto;
+  line-height: 36px;
 }
 
 .footer {

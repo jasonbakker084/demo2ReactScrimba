@@ -107,7 +107,17 @@ function App() {
           <Coverflow width="961" height="900"
             displayQuantityOfSide={1}
             navigation={false}
-            enableScroll={true}
+            enableScroll={false}
+            media={{
+              '@media (max-width: 900px)': {
+                width: '600px',
+                height: '300px'
+              },
+              '@media (min-width: 900px)': {
+                width: '960px',
+                height: '900px'
+              }
+            }}
           >
             <SpotifyCover
               cover={{
@@ -137,8 +147,15 @@ function App() {
                 artist: "Natural Child",
                 text: "2012"
               }} />
-          </Coverflow>,
-  {document.querySelector('.content')}
+            <SpotifyCover
+              cover={{
+                imgUrl: "https://images-na.ssl-images-amazon.com/images/I/81BcvqJw6vL._SL1200_.jpg",
+                album: "Be Here Now",
+                artist: "Oasis",
+                text: "2016"
+              }} />
+          </Coverflow>
+          {document.querySelector('.content')}
         </StyleRoot>
       </div>
       <Footer />
